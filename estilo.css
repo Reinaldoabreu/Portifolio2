@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(178, 158, 194);
+    height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.flex{
+    display: flex;
+}
+
+.limite{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: aliceblue;
+    font-size: 38px;
+    text-align: center;
+
+}
+
+h2.titulo span{
+    color: #00ff08;
+}
+ 
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #51ff00;
+    transform:scale(1.05) ;
+}
+
+/*estilo do cabeçalho*/
+header{
+    padding: 40px 4%;
+   
+}
+
+header > .limite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+
+header a{
+    color: rgb(110, 110, 110);
+    text-decoration: none; 
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover{
+    color: azure;
+    transform: scale(1.05);
+  
+}
+
+header nav ul{
+    list-style-type: none; 
+ 
+}
+
+header nav.menu-desktop ul li{
+    display: inline-block;
+    padding: 0 40px; 
+    
+}
+/*estilo do topo*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.topo-do-site h1{
+    color: aliceblue;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+
+.topo-do-site .txt-topo-site p{
+    color: aliceblue;
+    margin: 40px 0%;
+}
+
+.img-topo-site img{
+    width: 400px;
+   
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #00ff08;
+    font-size: 50px;
+    
+}
+
+.topo-do-site .txt-topo-site p{
+    color:aliceblue;
+    margin: 40px 0;
+    
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
